@@ -1,0 +1,35 @@
+Linux : 
+
+[hgorla@hint114 ~]$ pwd
+/home/hgorla
+[hgorla@hint114 ~]$ date
+Thu Jun  2 08:33:23 IST 2022
+[hgorla@hint114 ~]$ ls -lrt
+total 32
+-rw-r--r--. 1 hgorla hint  75 Jun 16  2021 firstfile
+-rw-r--r--. 1 hgorla hint  32 Jun 16  2021 secondfile
+-rw-r--r--. 1 hgorla hint  19 Jun 16  2021 thirdfile
+[hgorla@hint114 ~]$ cat > 4thfile.txt
+This file created with cat command
+[hgorla@hint114 ~]$ cat 4thfile.txt
+This file created with cat command
+[hgorla@hint114 ~]$ touch 5thfile.txt
+[hgorla@hint114 ~]$ cat 5thfile.txt
+[hgorla@hint114 ~]$ vi 5thfile.txt
+[hgorla@hint114 ~]$ cat 5thfile.txt
+This data insrted with the help of VI Editor
+[hgorla@hint114 ~]$ ls -lart
+[hgorla@hint114 ~]$ mkdir batch064
+[hgorla@hint114 ~]$ cd batch064/
+[hgorla@hint114 batch064]$ pwd
+/home/hgorla/batch064
+[hgorla@hint114 batch064]$ cp 063file.txt 063file.txt_bkp
+[hgorla@hint114 batch064]$ ls -lrt
+total 8
+-rw-r--r--. 1 hgorla hint 301 Jun  2 08:48 063file.txt
+-rw-r--r--. 1 hgorla hint 301 Jun  2 08:51 063file.txt_bkp
+[hgorla@hint114 batch064]$ rm -rf 063file.txt
+[hgorla@hint114 batch064]$ mv 063file.txt_bkp 063file.txt
+[hgorla@hint114 batch064]$ ls -lrt
+total 4
+-rw-r--r--. 1 hgorla hint 324 Jun  2 08:53 063file.txt
